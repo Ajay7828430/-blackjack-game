@@ -1,0 +1,22 @@
+body{
+    text-align:center;
+    background-image: url("green-background-plain-image.webp");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+
+h1{
+    color: gold;
+}
+button{
+    display:block;
+    background-color:gold;
+    margin:auto;
+    border:0px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: medium;
+}
