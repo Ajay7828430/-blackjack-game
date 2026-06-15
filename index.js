@@ -24,7 +24,7 @@ function startGame(){
         let firstCard=getRandomCard()
         let secondCard=getRandomCard()
         cards=[firstCard,secondCard]
-        cardsEl.textContent+=firstCard+" "+secondCard+" "
+        cardsEl.textContent+=`${firstCard} ${secondCard}`
         sum=firstCard+secondCard
         sumEl.textContent+=sum
         renderGame()
